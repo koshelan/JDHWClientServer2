@@ -32,10 +32,11 @@ public class Server {
                         if (text.equals("off")) {
                             break end;
                         }
+
                     }
 
                 } catch (Exception e) {
-                    e.printStackTrace();
+                    System.out.println("Клиент отвалился");
                 }
             }
         } catch (Exception e) {
